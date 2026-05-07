@@ -1,0 +1,128 @@
+/* src/Pages/Notifications.css */
+.notifications-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.notification-bell {
+  position: relative;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.notification-bell:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.bell-icon {
+  font-size: 22px;
+}
+
+.notification-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #ef4444;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  min-width: 18px;
+  text-align: center;
+}
+
+.notification-dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 380px;
+  max-height: 500px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.notification-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  color: #6c757d;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.clear-btn:hover {
+  background: #e9ecef;
+}
+
+.notification-list {
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.notification-item {
+  display: flex;
+  gap: 12px;
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.notification-item:hover {
+  background: #f8f9fa;
+}
+
+.notif-icon {
+  font-size: 24px;
+}
+
+.notif-content {
+  flex: 1;
+}
+
+.notif-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.notif-message {
+  font-size: 12px;
+  color: #6c757d;
+  margin-bottom: 4px;
+}
+
+.notif-action {
+  font-size: 11px;
+  color: #4f46e5;
+  font-weight: 500;
+}
+
+.no-notifications {
+  text-align: center;
+  padding: 40px;
+  color: #6c757d;
+  font-size: 14px;
+}

@@ -1,0 +1,151 @@
+.pending-approval-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  /* Using your background image */
+  background-image: url('../assets/download.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Add an overlay to make text readable */
+.pending-approval-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1;
+}
+
+.pending-approval-card {
+  position: relative;
+  z-index: 2;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pending-icon {
+  margin-bottom: 20px;
+  animation: pulse 2s infinite;
+}
+
+.pending-icon img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pending-approval-card h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.pending-message {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.pending-details {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.pending-details p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.pending-contact {
+  background: #fff3cd;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+  color: #856404;
+}
+
+.pending-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.refresh-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.refresh-btn:hover {
+  background: #5a67d8;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+@media (max-width: 768px) {
+  .pending-approval-card {
+    padding: 25px;
+    margin: 20px;
+  }
+  
+  .pending-approval-card h2 {
+    font-size: 24px;
+  }
+  
+  .pending-message {
+    font-size: 16px;
+  }
+  
+  .pending-icon img {
+    width: 70px;
+    height: 70px;
+  }
+}

@@ -1,0 +1,588 @@
+/* ==================== VARIABLES ==================== */
+:root {
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+  --primary-light: #818cf8;
+  --secondary: #0f172a;
+  --accent: #ec4899;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* Reset margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ==================== SIDEBAR - ULTRA TIGHT SPACING WITH PROPER ALIGNMENT ==================== */
+.sidebar {
+  width: 250px;
+  background: linear-gradient(180deg, #1e1b4b 0%, #2e1065 50%, #1e1b4b 100%);
+  color: #e2e8f0;
+  padding: 12px 10px;
+  box-shadow: var(--shadow-xl);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 20;
+}
+
+.sidebar h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #fff 0%, #c4b5fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 0 6px;
+}
+
+.admin-name {
+  font-size: 0.7rem;
+  color: #a5b4fc;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-left: 6px;
+}
+
+.department-badge {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.2), rgba(139, 92, 246, 0.2));
+  color: #c4b5fd;
+  padding: 2px 8px;
+  border-radius: 50px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-left: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Sidebar buttons - FIXED ALIGNMENT */
+.sidebar button {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 2px;
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.2;
+}
+
+/* Fix emoji alignment - make them the same width */
+.sidebar button::before {
+  display: none;
+}
+
+/* Ensure emojis and text are vertically centered */
+.sidebar button span,
+.sidebar button .emoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add consistent emoji width */
+.sidebar button {
+  white-space: nowrap;
+}
+
+.sidebar button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.sidebar button.active {
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.25), rgba(139, 92, 246, 0.25));
+  color: white;
+  border-left: 2px solid #818cf8;
+}
+
+.logout-btn {
+  margin-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 8px !important;
+  margin-bottom: 0 !important;
+  color: #fca5a5 !important;
+}
+
+.logout-btn:hover {
+  background: rgba(239, 68, 68, 0.15) !important;
+}
+
+/* Scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+/* ==================== DASHBOARD CARDS ==================== */
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 24px 20px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card h3 {
+  color: var(--gray-500);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: var(--gray-800);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ==================== DEPARTMENT TABLES - LEFT ALIGNED ==================== */
+.department-students,
+.department-supervisors {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+}
+
+.department-students h2,
+.department-supervisors h2 {
+  color: var(--gray-800);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+}
+
+/* Filter Bar - Left Aligned */
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.search-input,
+.filter-select {
+  padding: 10px 16px;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+  background: var(--gray-50);
+}
+
+.search-input {
+  width: 300px;
+}
+
+.search-input:focus,
+.filter-select:focus {
+  outline: none;
+  border-color: var(--primary);
+  background: white;
+}
+
+.filter-select {
+  cursor: pointer;
+}
+
+/* Table Styles - Full Width, Left Aligned */
+.students-table,
+.supervisors-table {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+thead {
+  background: linear-gradient(135deg, var(--secondary) 0%, #312e81 100%);
+  color: white;
+}
+
+th {
+  padding: 14px 12px;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--gray-200);
+  color: var(--gray-700);
+}
+
+tbody tr:hover {
+  background: var(--gray-50);
+}
+
+/* Status Badges */
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.status-badge.active,
+.status-badge.approved {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.inactive {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.status-badge.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.company-name {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.date-badge {
+  font-size: 0.7rem;
+  background: var(--gray-100);
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.assigned-count {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: var(--gray-400);
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1200px) {
+  .dashboard-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .sidebar button {
+    display: inline-block;
+    width: calc(50% - 8px);
+    margin: 4px;
+    text-align: center;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .dashboard-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .search-input {
+    width: 100%;
+  }
+  
+  .filter-bar {
+    flex-direction: column;
+  }
+  
+  th, td {
+    padding: 10px 8px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar button {
+    width: 100%;
+    margin: 4px 0;
+  }
+  
+  .main-content {
+    padding: 16px;
+  }
+  
+  .department-students,
+  .department-supervisors {
+    padding: 16px;
+  }
+}
+/* ==================== MAIN CONTENT - FORCE LEFT ALIGNMENT ==================== */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #faf9ff 0%, #fefce8 100%);
+  text-align: left;
+}
+
+/* Force all containers to start from left */
+.department-students,
+.department-supervisors,
+.applications-section {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+/* Headers - left aligned */
+.department-students h2,
+.department-supervisors h2 {
+  color: var(--gray-800);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+  text-align: left;
+}
+
+/* Filter Bar - left aligned */
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.search-input,
+.filter-select {
+  padding: 10px 16px;
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+  background: var(--gray-50);
+  text-align: left;
+}
+
+.search-input {
+  width: 300px;
+}
+
+/* Tables - full width, left aligned */
+.students-table,
+.supervisors-table {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 16px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+thead {
+  background: linear-gradient(135deg, var(--secondary) 0%, #312e81 100%);
+  color: white;
+}
+
+th {
+  padding: 14px 12px;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--gray-200);
+  color: var(--gray-700);
+  text-align: left;
+}
+
+/* Center only the status badge column */
+td:nth-child(5),
+th:nth-child(5) {
+  text-align: center;
+}
+
+/* Remove any right margins or floats */
+.dashboard-container,
+.sidebar,
+.main-content,
+.department-students,
+.department-supervisors {
+  float: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Cards - centered */
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card {
+  background: linear-gradient(135deg, #ffffff 0%, #fef9e3 100%);
+  padding: 35px 20px;
+  border-radius: 24px;
+  box-shadow: var(--shadow-lg);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.card h3 {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: var(--gray-900);
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* Global reset - ensure everything starts from left */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Container fixes */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #faf9ff 0%, #f3f4f6 100%);
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
