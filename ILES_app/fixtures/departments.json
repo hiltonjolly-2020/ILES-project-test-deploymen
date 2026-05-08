@@ -1,0 +1,749 @@
+[
+  {
+    "model": "ILES_app.department",
+    "pk": 1,
+    "fields": {
+      "name": "Accounting and Finance",
+      "code": "AF",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 2,
+    "fields": {
+      "name": "Adult and Community Education",
+      "code": "ACE",
+      "college": "COEDU"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 3,
+    "fields": {
+      "name": "African Languages",
+      "code": "AL",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 4,
+    "fields": {
+      "name": "Agribusiness",
+      "code": "AGRIB",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 5,
+    "fields": {
+      "name": "Agricultural Economics",
+      "code": "AE",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 6,
+    "fields": {
+      "name": "Agricultural Production",
+      "code": "AP",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 7,
+    "fields": {
+      "name": "Animal Science",
+      "code": "AS",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 8,
+    "fields": {
+      "name": "Architecture",
+      "code": "ARCH",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 9,
+    "fields": {
+      "name": "Biochemistry",
+      "code": "BCH",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 10,
+    "fields": {
+      "name": "Biomedical Sciences",
+      "code": "BMS",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 11,
+    "fields": {
+      "name": "Biosecurity and Public Health",
+      "code": "BPH",
+      "college": "COVAB"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 12,
+    "fields": {
+      "name": "Botany",
+      "code": "BOT",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 13,
+    "fields": {
+      "name": "Business Administration",
+      "code": "BA",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 14,
+    "fields": {
+      "name": "Chemistry",
+      "code": "CHEM",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 15,
+    "fields": {
+      "name": "Civil and Environmental Engineering",
+      "code": "CEE",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 16,
+    "fields": {
+      "name": "Civil Engineering",
+      "code": "CIV",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 17,
+    "fields": {
+      "name": "Commerce",
+      "code": "COM",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 18,
+    "fields": {
+      "name": "Commercial Law",
+      "code": "CL",
+      "college": "COLAW"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 19,
+    "fields": {
+      "name": "Computer Science",
+      "code": "CS",
+      "college": "COCIS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 20,
+    "fields": {
+      "name": "Construction Economics and Management",
+      "code": "CEM",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 21,
+    "fields": {
+      "name": "Dentistry",
+      "code": "DENT",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 22,
+    "fields": {
+      "name": "Development Studies",
+      "code": "DS",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 23,
+    "fields": {
+      "name": "Distance and Lifelong Learning",
+      "code": "DLL",
+      "college": "COEDU"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 24,
+    "fields": {
+      "name": "Economic Theory and Analysis",
+      "code": "ETA",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 25,
+    "fields": {
+      "name": "Economics",
+      "code": "ECON",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 26,
+    "fields": {
+      "name": "Educational Management",
+      "code": "EM",
+      "college": "COEDU"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 27,
+    "fields": {
+      "name": "Educational Psychology",
+      "code": "EP",
+      "college": "COEDU"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 28,
+    "fields": {
+      "name": "Electrical and Computer Engineering",
+      "code": "ECE",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 29,
+    "fields": {
+      "name": "Electrical Engineering",
+      "code": "ELE",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 30,
+    "fields": {
+      "name": "Environmental Law",
+      "code": "EL",
+      "college": "COLAW"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 31,
+    "fields": {
+      "name": "Environmental Management",
+      "code": "ENVM",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 32,
+    "fields": {
+      "name": "European and Oriental Languages",
+      "code": "EOL",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 33,
+    "fields": {
+      "name": "Fine Art",
+      "code": "FA",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 34,
+    "fields": {
+      "name": "Food Technology and Nutrition",
+      "code": "FTN",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 35,
+    "fields": {
+      "name": "Forestry and Tourism",
+      "code": "FT",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 36,
+    "fields": {
+      "name": "Foundations and Curriculum Studies",
+      "code": "FCS",
+      "college": "COEDU"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 37,
+    "fields": {
+      "name": "Geography and Geo-Informatics",
+      "code": "GG",
+      "college": "CAES"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 38,
+    "fields": {
+      "name": "Geology",
+      "code": "GEO",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 39,
+    "fields": {
+      "name": "Geomatics and Land Management",
+      "code": "GLM",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 40,
+    "fields": {
+      "name": "History",
+      "code": "HIST",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 41,
+    "fields": {
+      "name": "Industrial and Fine Art",
+      "code": "IFA",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 42,
+    "fields": {
+      "name": "Information Systems",
+      "code": "IS",
+      "college": "COCIS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 43,
+    "fields": {
+      "name": "Information Technology",
+      "code": "IT",
+      "college": "COCIS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 44,
+    "fields": {
+      "name": "Journalism and Communication",
+      "code": "JC",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 45,
+    "fields": {
+      "name": "Law",
+      "code": "LAW",
+      "college": "COLAW"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 46,
+    "fields": {
+      "name": "Law and Jurisprudence",
+      "code": "LJ",
+      "college": "COLAW"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 47,
+    "fields": {
+      "name": "Library and Information Science",
+      "code": "LIS",
+      "college": "COCIS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 48,
+    "fields": {
+      "name": "Linguistics",
+      "code": "LING",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 49,
+    "fields": {
+      "name": "Literature",
+      "code": "LIT",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 50,
+    "fields": {
+      "name": "Marketing and Management",
+      "code": "MM",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 51,
+    "fields": {
+      "name": "Mathematics",
+      "code": "MATH",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 52,
+    "fields": {
+      "name": "Mechanical Engineering",
+      "code": "MEC",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 53,
+    "fields": {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 54,
+    "fields": {
+      "name": "Medical Laboratory Science",
+      "code": "MLS",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 55,
+    "fields": {
+      "name": "Medicine and Surgery",
+      "code": "MED",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 56,
+    "fields": {
+      "name": "Microbiology",
+      "code": "MIC",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 57,
+    "fields": {
+      "name": "Networks",
+      "code": "NET",
+      "college": "COCIS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 58,
+    "fields": {
+      "name": "Nursing",
+      "code": "NRS",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 59,
+    "fields": {
+      "name": "Performing Arts and Film",
+      "code": "PAF",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 60,
+    "fields": {
+      "name": "Pharmacy",
+      "code": "PHARM",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 61,
+    "fields": {
+      "name": "Philosophy",
+      "code": "PHIL",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 62,
+    "fields": {
+      "name": "Physics",
+      "code": "PHY",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 63,
+    "fields": {
+      "name": "Physiotherapy",
+      "code": "PT",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 64,
+    "fields": {
+      "name": "Planning and Applied Statistics",
+      "code": "PAS",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 65,
+    "fields": {
+      "name": "Policy and Development Economics",
+      "code": "PDE",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 66,
+    "fields": {
+      "name": "Political Science and Public Administration",
+      "code": "PSPA",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 67,
+    "fields": {
+      "name": "Population Studies",
+      "code": "PS",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 68,
+    "fields": {
+      "name": "Psychology",
+      "code": "PSY",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 69,
+    "fields": {
+      "name": "Public Health",
+      "code": "PH",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 70,
+    "fields": {
+      "name": "Public Law",
+      "code": "PL",
+      "college": "COLAW"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 71,
+    "fields": {
+      "name": "Radiology",
+      "code": "RAD",
+      "college": "CHS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 72,
+    "fields": {
+      "name": "Records and Archives Management",
+      "code": "RAM",
+      "college": "COCIS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 73,
+    "fields": {
+      "name": "Religion and Peace Studies",
+      "code": "RPS",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 74,
+    "fields": {
+      "name": "Science and Technical Education",
+      "code": "STE",
+      "college": "COEDU"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 75,
+    "fields": {
+      "name": "Social Sciences and Arts Education",
+      "code": "SSAE",
+      "college": "COEDU"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 76,
+    "fields": {
+      "name": "Social Work and Social Administration",
+      "code": "SWSA",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 77,
+    "fields": {
+      "name": "Sociology and Anthropology",
+      "code": "SA",
+      "college": "COHUM"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 78,
+    "fields": {
+      "name": "Sports Science",
+      "code": "SPT",
+      "college": "CONAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 79,
+    "fields": {
+      "name": "Statistics and Actuarial Science",
+      "code": "SAS",
+      "college": "COBAS"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 80,
+    "fields": {
+      "name": "Veterinary Medicine",
+      "code": "VET",
+      "college": "COVAB"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 81,
+    "fields": {
+      "name": "Visual Communication Design",
+      "code": "VCD",
+      "college": "CEDAT"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 82,
+    "fields": {
+      "name": "Wildlife and Aquatic Resources",
+      "code": "WAR",
+      "college": "COVAB"
+    }
+  },
+  {
+    "model": "ILES_app.department",
+    "pk": 83,
+    "fields": {
+      "name": "Zoology",
+      "code": "ZOO",
+      "college": "CONAS"
+    }
+  }
+]

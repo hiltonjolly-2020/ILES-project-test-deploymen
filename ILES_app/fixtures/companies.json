@@ -1,0 +1,808 @@
+[
+  {
+    "model": "ILES_app.company",
+    "pk": 1,
+    "fields": {
+      "name": "MTN Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "careers@mtn.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 2,
+    "fields": {
+      "name": "Airtel Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@airtel.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 3,
+    "fields": {
+      "name": "NTV Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@ntv.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 4,
+    "fields": {
+      "name": "New Vision",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@newvision.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 5,
+    "fields": {
+      "name": "Monitor Publications Limited",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@monitor.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 6,
+    "fields": {
+      "name": "International Hospital Kampala (IHK)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@ihk.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 7,
+    "fields": {
+      "name": "Case Hospital",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@casehospital.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 8,
+    "fields": {
+      "name": "Makerere University Hospital",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hospital@mak.ac.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 9,
+    "fields": {
+      "name": "The AIDS Support Organization (TASO)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@taso.or.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 10,
+    "fields": {
+      "name": "Mcleod Russell Uganda Ltd (Kiko Tea Estate)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@mcleodrussell.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 11,
+    "fields": {
+      "name": "Eco Brixs",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@ecobrixs.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 12,
+    "fields": {
+      "name": "Uganda Wildlife Authority (UWA)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@ugandawildlife.org",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 13,
+    "fields": {
+      "name": "National Forestry Authority (NFA)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@nfa.go.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 14,
+    "fields": {
+      "name": "Internship Agency Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@internshipagencyug.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 15,
+    "fields": {
+      "name": "Bullijo Credit Limited",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@bullijo.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 16,
+    "fields": {
+      "name": "The Book Point Uganda Ltd",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@bookpoint.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 17,
+    "fields": {
+      "name": "Cafe Javas Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@cafejavas.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 18,
+    "fields": {
+      "name": "Sleepiz AG (Zurich)",
+      "address": "Zurich, Switzerland",
+      "phone": "+256312123456",
+      "email": "careers@sleepiz.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 19,
+    "fields": {
+      "name": "IT Plus Solutions Limited",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@itplus.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 20,
+    "fields": {
+      "name": "National Livestock Resources Research Institute (NaLIRRI)",
+      "address": "Tororo, Uganda",
+      "phone": "+256312123456",
+      "email": "nalirri@naro.go.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 21,
+    "fields": {
+      "name": "National Agricultural Research Organisation (NARO)",
+      "address": "Entebbe, Uganda",
+      "phone": "+256312123456",
+      "email": "naro@naro.go.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 22,
+    "fields": {
+      "name": "Makerere University Center for Artificial Intelligence (Mak-AI)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@makai.ac.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 23,
+    "fields": {
+      "name": "Infectious Diseases Institute (IDI)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@idi.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 24,
+    "fields": {
+      "name": "Marconi Research and Innovations Laboratory",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@marconilab.mak.ac.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 25,
+    "fields": {
+      "name": "Uganda Manufacturers Association (UMA)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@uma.or.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 26,
+    "fields": {
+      "name": "Mayuge Sugar Industries Limited",
+      "address": "Mayuge, Uganda",
+      "phone": "+256312123456",
+      "email": "info@mayugesugar.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 27,
+    "fields": {
+      "name": "Luuka Plastics Ltd",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@luukaplastics.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 28,
+    "fields": {
+      "name": "Brookside Limited",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@brookside.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 29,
+    "fields": {
+      "name": "Mandela Millers",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@mandelamillers.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 30,
+    "fields": {
+      "name": "Psalms Food Industries",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@psalmsfoods.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 31,
+    "fields": {
+      "name": "Harris International (Riham)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@harrisint.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 32,
+    "fields": {
+      "name": "Century Bottling Company (Coca-Cola)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@cocacola.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 33,
+    "fields": {
+      "name": "Centre for Research in Energy and Energy Conservation (CREEC)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@creec.or.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 34,
+    "fields": {
+      "name": "Dott Services Ltd",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@dottservices.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 35,
+    "fields": {
+      "name": "ROKO Construction Ltd",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@rokoconstruction.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 36,
+    "fields": {
+      "name": "Uganda Railways Corporation (URC)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "md@urc.go.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 37,
+    "fields": {
+      "name": "Ministry of Energy and Mineral Development",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "ps@energy.go.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 38,
+    "fields": {
+      "name": "Uganda National Roads Authority (UNRA)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@unra.go.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 39,
+    "fields": {
+      "name": "National Water and Sewerage Corporation (NWSC)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@nwsc.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 40,
+    "fields": {
+      "name": "Bujagali Energy Limited",
+      "address": "Jinja, Uganda",
+      "phone": "+256312123456",
+      "email": "info@bujagali-energy.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 41,
+    "fields": {
+      "name": "Roofings Group",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@roofingsgroup.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 42,
+    "fields": {
+      "name": "Kiira Motors Corporation",
+      "address": "Jinja, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@kiramotors.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 43,
+    "fields": {
+      "name": "East African Crude Oil Pipeline (EACOP) Ltd",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@eacop.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 44,
+    "fields": {
+      "name": "Economic Policy Research Centre (EPRC)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "eprc@eprc.or.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 45,
+    "fields": {
+      "name": "Ernst & Young (EY)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "recruit@ug.ey.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 46,
+    "fields": {
+      "name": "PricewaterhouseCoopers (PwC)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "ug_recruitment@pwc.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 47,
+    "fields": {
+      "name": "Deloitte",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "recruitment@deloitte.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 48,
+    "fields": {
+      "name": "ACCA Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@ug.accaglobal.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 49,
+    "fields": {
+      "name": "Prudential Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "uganda@prudential.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 50,
+    "fields": {
+      "name": "Bank of Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@bou.go.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 51,
+    "fields": {
+      "name": "Centenary Bank",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@centenarybank.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 52,
+    "fields": {
+      "name": "dfcu Bank",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "hr@dfcugroup.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 53,
+    "fields": {
+      "name": "Stanbic Bank Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "recruitment@stanbic.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 54,
+    "fields": {
+      "name": "Research and Education Network for Uganda (RENU)",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@renu.ac.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 55,
+    "fields": {
+      "name": "Helpware Inc.",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "careers@helpware.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 56,
+    "fields": {
+      "name": "Innovation Village",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@innovationvillage.co.ug",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 57,
+    "fields": {
+      "name": "Microsoft Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "ughr@microsoft.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 58,
+    "fields": {
+      "name": "Google Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "uganda-jobs@google.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 59,
+    "fields": {
+      "name": "Huawei Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "recruitment@huawei.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 60,
+    "fields": {
+      "name": "Adult Education Maya",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@mayauganda.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 61,
+    "fields": {
+      "name": "Run Uganda",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@runuganda.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ILES_app.company",
+    "pk": 62,
+    "fields": {
+      "name": "Wavamuno",
+      "address": "Kampala, Uganda",
+      "phone": "+256312123456",
+      "email": "info@wavamuno.com",
+      "is_approved": true,
+      "approved_at": "2024-01-01T00:00:00Z",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
