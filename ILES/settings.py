@@ -177,10 +177,13 @@ else:
 
 FRONTEND_URL = config('FRONTEND_URL', default='https://iles-grpo6front.onrender.com')
 
-CORS_ALLOWED_ORIGINS = config(
-    'CORS_ALLOWED_ORIGINS',
-    default='http://localhost:3000,http://127.0.0.1:3000,https://your-app.vercel.app'
-).split(',')
+# ✅ FIXED: Added your actual frontend URL
+CORS_ALLOWED_ORIGINS = [
+    'https://iles-grpo6front.onrender.com',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_METHODS = [
@@ -204,7 +207,12 @@ CORS_ALLOW_HEADERS = [
     'x-requested-with',
 ]
 
-CSRF_TRUSTED_ORIGINS = config(
-    'CSRF_TRUSTED_ORIGINS',
-    default='https://*.onrender.com,https://*.vercel.app,http://localhost:3000,https://iles-grpo6front.onrender.com/'
-).split(',')
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.onrender.com',
+    'https://*.vercel.app',
+    'http://localhost:3000',
+    'https://iles-grpo6front.onrender.com',
+]
+]
+]
