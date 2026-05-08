@@ -206,5 +206,5 @@ CORS_ALLOW_HEADERS = [
 
 CSRF_TRUSTED_ORIGINS = config(
     'CSRF_TRUSTED_ORIGINS',
-    default='https://*.onrender.com,https://*.vercel.app,http://localhost:3000'
+    default='https://*.onrender.com,https://*.vercel.app,http://localhost:3000,https://iles-grpo6front.onrender.com/'
 ).split(',')
