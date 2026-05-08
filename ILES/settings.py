@@ -214,5 +214,4 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     'https://iles-grpo6front.onrender.com',
 ]
-]
-]
+
