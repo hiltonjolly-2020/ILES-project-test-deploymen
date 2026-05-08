@@ -175,7 +175,7 @@ else:
     EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD', default='')
     DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL', default='ILES System <noreply@iles.com>')
 
-FRONTEND_URL = config('FRONTEND_URL', default='https://iles-frontend.onrender.com')
+FRONTEND_URL = config('FRONTEND_URL', default='https://iles-grpo6front.onrender.com')
 
 CORS_ALLOWED_ORIGINS = config(
     'CORS_ALLOWED_ORIGINS',
